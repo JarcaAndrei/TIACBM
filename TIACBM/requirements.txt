@@ -1,0 +1,15 @@
+beautifulsoup4==4.13.3
+datasets==2.18.0
+matplotlib==3.8.2
+nltk==3.8.1
+num2words==0.5.13
+numpy==1.24.3
+pandas==2.0.3
+scikit_learn==1.4.0
+seaborn==0.13.2
+spacy==3.7.3
+spacy_transformers==1.3.5
+torch==2.2.0+cu121
+tqdm==4.66.2
+transformers==4.36.2
+wordcloud==1.9.4
