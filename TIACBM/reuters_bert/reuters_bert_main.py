@@ -470,7 +470,7 @@ probs = [0.15, 0.12, 0.09] * 15
 #for i in range(40):
 #    probs.append(i/100)
 #probs = probs[::-1]
-sentiwordnet_words = load_sentiwordnet('SentiWordNet_3.0.0.txt')
+sentiwordnet_words = []
 train_dataloader1 = DataLoader(CustomDataset_train(data_train, probs[0], model, sentiment_dict = sentiwordnet_words), shuffle=True, batch_size=batch_size)
 train_dataloader2 = DataLoader(CustomDataset_train(data_train, probs[1], model, sentiment_dict = sentiwordnet_words), shuffle=True, batch_size=batch_size)
 train_dataloader3 = DataLoader(CustomDataset_train(data_train, probs[2], model, sentiment_dict = sentiwordnet_words), shuffle=True, batch_size=batch_size)
